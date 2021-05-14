@@ -18,13 +18,22 @@ export default function Footer(){
   return (
     <div className="bg-gray-50">
       <div>
-        <BackToTop />
-        <Availability />
+        
+        
         <PetParentingBanner />
         <FooterMenu />
         <UsefulLinks />
         <SocialLinks Details={SocLinks} />
         <PaymentPartners />
+        <div className="flex justify-between items-center bg-blue-700">
+            <div className="sm:flex justify-between items-center">
+                <Availability />
+            </div>
+            <div className="sm:flex justify-between items-center">
+                <BackToTop />
+            </div>
+        </div>  
+
         
       </div>
       <div className="border-box border-t-2 border-gray-500 h-24 flex items-center justify-center">

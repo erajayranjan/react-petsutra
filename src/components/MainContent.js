@@ -11,7 +11,7 @@ export default function MainContent(){
    <div className="bg-red-100 " >
       
        <div className="flex justify-center  w-full ">
-       
+       Main Content is here!
        </div>
       
        

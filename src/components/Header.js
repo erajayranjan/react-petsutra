@@ -6,12 +6,12 @@ import RightMenu from "./RightMenu"
 
 export default function Header(){
   return (
-    <div className="bg-blue-400 h-96 flex items-center justify-center">
-      {/* <h2 className="font-bold mr-5">
+    <div className="bg-blue-400 h-24 flex items-center justify-center">
+      <h2 className="font-bold mr-5">
          PetSutra      
       </h2>
       <NavLinks />
-      <RightMenu /> */}
+      <RightMenu />
     </div>
   );
 }
